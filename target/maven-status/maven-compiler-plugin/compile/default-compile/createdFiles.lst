@@ -1,0 +1,8 @@
+dev\danvega\springbooks\controller\BookController.class
+dev\danvega\springbooks\repository\BookRepository.class
+dev\danvega\springbooks\model\Book.class
+dev\danvega\springbooks\Application.class
+dev\danvega\springbooks\model\Rating.class
+dev\danvega\springbooks\model\Author.class
+dev\danvega\springbooks\controller\AuthorController.class
+dev\danvega\springbooks\repository\AuthorRepository.class

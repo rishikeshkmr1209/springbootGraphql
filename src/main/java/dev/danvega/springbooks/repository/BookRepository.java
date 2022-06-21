@@ -23,7 +23,7 @@ public class BookRepository {
     }
 
     public Book findOne(Integer id) {
-        return books.stream().filter(book -> book.id() == id).findFirst().orElseThrow(() -> new RuntimeException("Book not found"));
+        return books.stream().filter(book -> book.getId() == id).findFirst().orElseThrow(() -> new RuntimeException("Book not found"));
     }
 
     @PostConstruct

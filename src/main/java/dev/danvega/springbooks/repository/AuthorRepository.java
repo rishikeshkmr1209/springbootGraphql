@@ -1,5 +1,6 @@
 package dev.danvega.springbooks.repository;
 
+
 import dev.danvega.springbooks.model.Author;
 import org.springframework.stereotype.Repository;
 
@@ -18,7 +19,7 @@ public class AuthorRepository {
 
     public Author findById(int id) {
         return authors.stream()
-                .filter(author -> author.id() == id)
+                .filter(author -> author.getId() == id)
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Author not found"));
     }
