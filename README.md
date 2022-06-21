@@ -11,7 +11,7 @@ TODO: Add Blog Post Here
 ## Development 
 
 - Run the Spring Boot application which will run on port 8080
-- Run the Vue application (/src/frontend) with the command `npm run dev` and it will start up on port 3000
+
 
 ## Packaging 
 
@@ -20,3 +20,29 @@ The Maven plugin maven-resources-plugin will copy the contents of the build dire
 Once the artifact has been created you can run the application using the following command: 
 
 ` java -jar target/spring-books-0.0.1-SNAPSHOT.jar`
+
+## Test
+
+query{
+  allBooks{
+    id
+    title
+    pages
+    rating {
+      rating
+      star
+    }
+    author{
+      id
+      firstName
+      lastName
+      
+      
+    }
+    
+  }
+  findOne(id:1){
+    title
+  }
+  
+}
