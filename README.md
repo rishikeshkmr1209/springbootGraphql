@@ -23,7 +23,9 @@ Once the artifact has been created you can run the application using the followi
 
 ## Test
 
-query{
+<code>
+  
+  query{
   allBooks{
     id
     title
@@ -46,3 +48,4 @@ query{
   }
   
 }
+  </code>
